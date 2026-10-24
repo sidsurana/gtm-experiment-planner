@@ -1,0 +1,57 @@
+{
+  "project": "lio",
+  "title": "Draft one GTM experiment",
+  "description": "Design the next focused GTM experiment from the current segment evidence and funnel constraints.",
+  "capability": "gtm-experiment",
+  "sections": [
+    {
+      "id": "hypothesis",
+      "title": "Testable hypothesis"
+    },
+    {
+      "id": "experiment",
+      "title": "Experiment and stop criteria"
+    },
+    {
+      "id": "questions",
+      "title": "Discovery questions"
+    }
+  ],
+  "gatewayTask": "cos.lio.gtm-experiment.v1",
+  "gatewayProject": "sid-cos-lio-northstar-20261021",
+  "company": "Lio",
+  "purpose": "Turn a market signal and a constraint into a testable experiment.",
+  "label": "Market signal and constraints",
+  "notesKey": "scenario",
+  "example": "Synthetic example: Industrial procurement teams lose time routing low-value supplier requests. We can interview five procurement operators over two weeks. No budget, conversion baseline or validated demand yet. Design a small discovery test before building.",
+  "support": {
+    "funnel": "No conversion counts or forecast supplied. Do not invent pipeline or calculate ROI.",
+    "segments": "The segment is a hypothesis in the supplied notes, not proven demand.",
+    "execution": "Propose a bounded test, human owner, evidence gate and stop condition. No action executed.",
+    "accounts": "No contacts or customer relationships supplied."
+  },
+  "color": "#111111",
+  "bg": "#fafaf8",
+  "accent": "#e8e8e4",
+  "serif": true,
+  "url": "https://www.lio.ai",
+  "evidenceIds": [
+    "scenario",
+    "funnel",
+    "segments",
+    "execution",
+    "accounts",
+    "limits"
+  ],
+  "paused": false,
+  "sources": [
+    {
+      "label": "Lio \u2014 role responsibilities",
+      "url": "https://jobs.ashbyhq.com/lio/1d675998-08e3-4fcf-82b6-764de0d156c6"
+    },
+    {
+      "label": "Lio \u2014 product context",
+      "url": "https://www.lio.ai"
+    }
+  ]
+}

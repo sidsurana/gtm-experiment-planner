@@ -1,0 +1,10 @@
+{
+  "name": "gtm-experiment-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test.js dom-test.js"
+  },
+  "description": "Prepare a testable GTM experiment from synthetic market signals and constraints.",
+  "license": "MIT"
+}
